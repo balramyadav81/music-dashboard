@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+}
+
+.left-box{
+    width: 18vw;
+}
+
+.left-box .dots{
+    height: 10vh;
+}
+
+.left-menu ul li{
+    margin-top: 0px;
+
+}
+
+.left-menu ul li span{
+    font-size: 15px;
+    
+}
+
+.logOutbtn:hover{
+    background: green;
+}
+
+.left-menu ul li img{
+    width: 1vw;
+    filter: invert(1);
+}
+
+.btmLogout{
+    position: relative; top: 12rem;
+}
+
+.btmLogout img{
+    width: 3vh;
+    filter: invert(1);
+    margin-right: 4px;
+}
+
+.center-box{
+    width: 60vw;
+    padding: 0 20px 12px 20px;
+    border-top: 0ch;
+    border-bottom: 0px;
+}
+
+.center-box form .filterBtn{
+    font-size:28px;
+    color:black; 
+    margin-left: 10px;
+}
+
+.artistName{
+    width: 7px;
+     border-radius: 5px;
+}
+.artistName img{
+    width: 65px;
+     border-radius: 5px;
+}
+
+.artistName p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.artistName a{
+    text-decoration: none;
+    color: white;
+}
+
+.songItems{
+    width: 10rem;
+    height: fit-content;
+    border-radius: 15%;
+}
+
+.songName:hover{
+    color: blueviolet;
+}
+
+.likeSongbtn{
+    background-color: transparent;
+    border: 2px solid transparent;
+    float: right;
+    font-size: 1.5vw;
+    color:rgba(216, 206, 206, 0.796)
+}
+
+.sideLeft{
+    margin-top: 1vh;
+}
+
+.imgBg{
+    width: 16vw; 
+    height: 21vh;
+    background: url(images/5.jpg) center center/cover;
+}
+
+.bgPlaybtn{
+    filter: invert(1);
+    width: 125%;
+}
+
+.right{
+    width: 30vw;
+    padding: 0 20px 12px 20px;
+}
+
+.friendGroupIcon{
+    width: 1.3vw;
+    margin: 1vw 0vw 0vw 8vw;
+    filter: invert(1);
+}
+
+.frndSongs{
+    height: fit-content;
+    border: 2px solid white;
+}
+
+.friendPic{
+    width: 20%;
+}
+
+.filterBtn{
+   margin-top: 4px;
+}
+
+.frndSongImg {
+    width: 5vw; 
+    height: 4vh; 
+    filter: brightness(10);
+}
+
+.playerBox{
+    height: 42vh; 
+    border: 2px solid white; 
+    background: url(images/2474312.jpg) no-repeat center center/cover;
+}
+

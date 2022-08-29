@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://kit.fontawesome.com/699c71809a.js" crossorigin="anonymous"></script>
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+  <div class="d-flex flex-row ">
+    <div class=" left-box ">
+      <div class="dots">
+
+      </div>
+      <div class="left-menu m-0">
+        <ul>
+          <li class="list-unstyled my-sm-4"><a href="" class="Menu user text-decoration-none active"><img
+                src="icons/house-solid.svg" alt=""><span class="mx-3">Home</span></a></li>
+          <li class="list-unstyled my-sm-4"><a href="" class="Menu user text-decoration-none"><img
+                src="icons/user-solid.svg" alt=""><span class="mx-3">Account</span></a></li>
+          <li class="list-unstyled my-sm-4"><a href="" class="Menu home text-decoration-none"><img
+                src="icons/chart-column-solid.svg" alt=""><span class="mx-3">Activity</span></a></li>
+          <li class="list-unstyled my-sm-4"><a href="" class="Menu home text-decoration-none"><img
+                src="icons/podcast-solid.svg" alt=""><span class="mx-3">Podcast</span></a></li>
+          <li class="list-unstyled my-sm-4"><a href="" class="Menu home text-decoration-none"><img
+                src="icons/message-solid.svg" alt=""><span class="mx-3">Message</span></a></li>
+          <li class="list-unstyled my-sm-4"><a href="" class="Menu home text-decoration-none"><img
+                src="icons/lightbulb-solid.svg" alt=""><span class="mx-3">Themes</span></a></li>
+          <li class="list-unstyled my-sm-4"><a href="" class="Menu home text-decoration-none"><img
+                src="icons/gear-solid.svg" alt=""><span class="mx-3">Setting</span></a></li>
+        </ul>
+      </div>
+      <div class="btmLogout mx-lg-4">
+        <button type="submit" class="btn btn-primary bg-transparent logOutbtn"><img src="icons/right-to-bracket-solid.svg"
+            alt="">Logout</button>
+      </div>
+    </div>
+    <div class=" center-box border">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/index.html">Discover</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Popular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Latest</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trending</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success rounded-0 bg-info" type="submit"><i
+                  class="fa-solid fa-search "></i></button>
+                <a href="#"><i class="fa fa-filter filterBtn"></i></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="populrArtist  py-md-3 flex-wrap">
+        <h4>Popular Artist</h4>
+        <div class="artistPics row justify-content-center align-items-center overflow-hidden no-wrap">
+          <div class="artistName m-md-2 col text-center">
+            <a href="#"><img alt="images"><p class="arTistName"></p>Mankirat</a>
+          </div>
+          <div class="artistName m-md-2 col text-center">
+            <a href="#"><img src="images/2.jpg" alt=""><p class="arTistName"></p>Jass</a>
+          </div>
+          <div class="artistName m-md-2 col text-center">
+            <a href="#"><img src="images/3.jpg" alt=""><p class="arTistName"></p>Kaka</a>
+          </div>
+          <div class="artistName m-md-2 col text-center">
+            <a href="#"><img src="images/5.jpg" alt=""><p class="arTistName"></p>Pohan</a>
+          </div>
+          <div class="artistName m-md-2 col text-center">
+            <img src="images/4.jpg" alt=""><a href="#"><p class="arTistName"></p>Manw</a>
+          </div>
+          <div class="artistName m-md-2 col text-center">
+            <a href="#"><img src="images/6.jpg" alt=""><p class="arTistName"></p>Ronchy</a>
+          </div>
+          <div class="artistName m-md-2 col text-center">
+            <a href="#"><img src="images/7.jpg" alt=""><p class="arTistName"></p>Wistan</a>
+          </div>
+          <div class="artistName m-md-2 col text-center">
+            <a href="#"><img src="images/22.jpg" alt=""><p class="arTistName"></p>Pors</a>
+          </div>
+
+          
+        </div>
+      </div>
+
+      <div class="trendSongs ">
+        <h4 class="d-inline-block">Trendy Songs</h4>
+        <div class="d-flex align-items-center justify-content-center overflow-hidden slider">
+          <div class="card my-2 mx-md-3 songItems">
+            <img class="card-img-top " alt="...">
+
+            <div class="card-body bg-dark">
+              <button class="text-decoration-none songItem bg-transparent border-0"><span class="card-text songName"></span></button>
+              <button type="submit" class="likeSongbtn"><i class="fa fa-heart float-end"></i></button>
+            </div>
+          </div>
+          <div class="card my-2 mx-md-3 songItems">
+            <img class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <button class="text-decoration-none songItem bg-transparent border-0"><span class="card-text songName"></span></button>
+              <button type="submit" class="likeSongbtn"><i class="fa fa-heart float-end"></i></button>
+            </div>
+          </div>
+          <div class="card my-2 mx-md-3 songItems">
+            <img class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <button class="text-decoration-none songItem bg-transparent border-0"><span class="card-text songName"></span></button>  
+              <button type="submit" class="likeSongbtn"><i class="fa fa-heart float-end"></i></button>
+            </div>
+          </div>
+          <div class="card my-2 mx-md-3 songItems">
+            <img class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <button class="text-decoration-none songItem bg-transparent border-0"><span class="card-text songName"></span></button>  
+              <button type="submit" class="likeSongbtn"><i class="fa fa-heart float-end"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="recentPlayed bg-dark">
+        <h4>Recently Played</h4>
+        <div class="d-flex flex-row ">
+          <div class="sideLeft text-center ">
+            <div class="card bg-dark imgBg">
+              <div class="card-body d-flex flex-row justify-content-center align-items-center">
+                <button type="submit" class="btn "><i class="fa fa-play-circle bgPlaybtn"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="sideLeft text-center border-0" style="  padding-left: 1vw;">
+            <div class="card border-0 bg-dark" style=" width: 40vw; height: 21vh;">
+              <div class="card bg-transparent" style=" width: 40vw; height: 9vh; margin-bottom: 1vh;">
+                <div class="row g-0">
+                  <div class="col-md-4" style="width: 25%;">
+                    <a href=""><img src="images/7.jpg" class="img-fluid rounded-circle" alt="..."
+                        style="width: 4vw;"></a>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body float-md-start recentSongItem">
+                      <span class="card-text recntSongName"></span>
+                      <br>
+                      <b class="card-title">Pillow Talk</b>
+                    </div>
+                    <div class="card-body ">
+                      <img src="images/music player sprogress bar.png" alt="" style="width: 12vw;height: 3vh; filter: brightness(6)">
+                      <button class="bg-transparent border-0 float-end "><i class="fa-solid fa-play-circle fa-2x songItemsPlay" id="0"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-transparent" style=" width: 40vw; height: 9vh; margin-bottom: 1vh;">
+                <div class="row g-0">
+                  <div class="col-md-4" style="width: 25%;">
+                    <a href=""><img src="images/7.jpg" class="img-fluid rounded-circle" alt="..."
+                        style="width: 4vw;"></a>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body float-md-start recentSongItem justify-content-start">
+                      <span class="card-text recntSongName"></span>
+                      <br>
+                      <b class="card-title">Dauth</b>
+                    </div>
+                    <div class="card-body ">
+                      <img src="images/Sound-effects.png" alt="" style="width: 12vw;height: 5vh; filter: invert(1) brightness(-9);">
+                      <button class="bg-transparent border-0 float-end"><i class="fa-solid fa-play-circle fa-2x songItemsPlay" id="1"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" right ">
+      <div class="frndAct my-md-2">
+        <div class="hed d-flex flex-row">
+          <h5>Friends Activity</h5>
+          <img src="icons/user-group-solid.svg" alt="" class="friendGroupIcon">
+        </div>
+        <p>250 Friends</p>
+      </div>
+      <div class="frndSongs border-opacity-25 rounded shadow-lg d-flex flex-column">
+        <div class="song1 rounded-1 border-light border-1 py-md-1">
+          <a href=""><img src="images/3.jpg" alt="" srcset="" class="rounded-circle friendPic"></a>
+          <span class="frendName" >
+            <a href="" class="text-decoration-none"><b><i class="fa-solid fa-dot-circle-o mx-md-2"
+                style="color: yellow;"></i>Ranjit</b></a>
+          </span>
+          <img src="images/music player sprogress bar.png" alt="" class="frndSongImg mx-md-4 float-end my-3">
+        </div>
+        <div class="song2 rounded-1 border-light border-1 py-md-1">
+          <a href=""><img src="images/3.jpg" alt="" srcset="" class="rounded-circle friendPic"></a>
+          <a href="" class="text-decoration-none"><b><i class="fa-solid fa-dot-circle-o mx-md-2"
+                style="color: rgb(255, 0, 157);"></i>Viren</b></a>
+          <img src="images/sound wave.png" alt="" class="frndSongImg mx-md-4 float-end my-3 " style="filter: contrast(200); width: 6vw;">
+        </div>
+        <div class="song3 rounded-1 border-light border-1 py-md-1">
+          <a href=""><img src="images/3.jpg" alt="" srcset="" class="rounded-circle friendPic"></a>
+          <a href="" class="text-decoration-none"><b><i class="fa-solid fa-dot-circle-o mx-md-2"
+                style="color: rgb(31, 169, 19);"></i>Friend Name</b></a>
+          <img src="images/Sound-effects.png" alt="" class="frndSongImg mx-md-4 float-end my-3">
+        </div>
+        <div class="song4 rounded-1 border-light border-1 py-md-1">
+          <a href=""><img src="images/3.jpg" alt="" srcset="" class="rounded-circle friendPic"></a>
+          <a href="" class="text-decoration-none"><b><i class="fa-solid fa-dot-circle-o mx-md-2"
+                style="color: rgb(0, 255, 221);"></i>Friend Name</b></a>
+          <img src="images/5.png" alt="" class="frndSongImg mx-md-4 float-end my-3">
+        </div>
+      </div>
+      <div class="frndSongs playerBox shadow-sm bg-dark rounded my-md-1">
+        <div class="upperHalf" style="height: 50%;">
+        </div>
+        <div class="belowHalf text-center" style="height: 50%;">
+          <b>Monday Morning Preacher</b>
+          <p>Preacher Podcast epil</p>
+          <div class="progressBar">
+            <input type="range" name="range" id="myProgressBar" style="width: 70%;" min="0" max="100" value="0">
+          </div>
+          <div class="playrButton mt-md-1">
+            <button type="reset" class="btn"><i class="fa-solid fa-backward-step" id="previous"></i></button>
+            <button type="reset" class="btn"><i class="fa-solid fa-rotate-left" id="songBack"></i></button>
+            <button type="submit" class="btn"><i class="fa-solid fa-play" id="masterPlay"></i></button>
+            <button type="reset" class="btn"><i class="fa-solid fa-rotate-right" id="songForward"></i></button>
+            <button type="reset" class="btn"><i class="fa-solid fa-forward-step" id="next"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha484-A4rJD856KowSb7dwlZdYEkO49Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
